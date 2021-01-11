@@ -74,3 +74,12 @@ for ( ; ; ) {
 Well, the time to use a for loop or a while loop is a bit of thing to decide on given their near equalness
 But, Programmers generally use for loops as counting loops since the for loop format enables you to place all the important information in one place.
 Programmers most often use while loops when they don't know in advanced precisely how many times a loop will execute.
+
+
+
+## Using timing in code
+C++ uses the clock() function from the ctime library to manage time in programs.
+A downside is clock() doesn't necessarily return time in seconds.
+Also it might return long on some systems and unsigned long on others.
+
+
